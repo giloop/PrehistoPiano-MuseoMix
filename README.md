@@ -8,25 +8,25 @@ Ce dépot contient :
 Mode d'emploi PréhistoPiano
 ----------------------------
 
-- Lancez l'exécutable. 
-- Appuyez sur la touche 'm' pour basculer en mode plein écran. 
-- Les touches qui lancent les sons / vidéos sont : 
-  PrehistoPiano - Note_01.wav : 'q' 		 | obj01_Racloir_640.mov
-  PrehistoPiano - Note_02.wav : ' ' (espace) | obj02_TailleSilex_640.mov
-  PrehistoPiano - Note_03.wav : Flêche Bas
-  PrehistoPiano - Note_04.wav : 'z'
-  PrehistoPiano - Note_05.wav : Branché à l'accéléromètre
-  PrehistoPiano - Note_06.wav : 'g'  		 | obj06_BoisDeCerf_640.mov
-  PrehistoPiano - Note_07.wav : Flêche Haut  | obj07_TailleViande_640.mov
-  PrehistoPiano - Note_08.wav : 'f'
-  PrehistoPiano - Note_09.wav : Flêche Gauche
+* Lancez l'exécutable. 
+* Appuyez sur la touche 'm' pour basculer en mode plein écran. 
+* Les touches qui lancent les sons / vidéos sont : 
+  *  PrehistoPiano - Note_01.wav : 'q' 		 | obj01_Racloir_640.mov
+  *  PrehistoPiano - Note_02.wav : ' ' (espace) | obj02_TailleSilex_640.mov
+  *  PrehistoPiano - Note_03.wav : Flêche Bas
+  *  PrehistoPiano - Note_04.wav : 'z'
+  *  PrehistoPiano - Note_05.wav : Branché à l'accéléromètre
+  *  PrehistoPiano - Note_06.wav : 'g'  		 | obj06_BoisDeCerf_640.mov
+  *  PrehistoPiano - Note_07.wav : Flêche Haut  | obj07_TailleViande_640.mov
+  *  PrehistoPiano - Note_08.wav : 'f'
+  *  PrehistoPiano - Note_09.wav : Flêche Gauche
   
-- Si vous avez une Makey Makey vous pouvez l'utiliser et relier ce que vous voulez
+* Si vous avez une Makey Makey vous pouvez l'utiliser et relier ce que vous voulez
 
-- Un des samples se lance à partir des données d'un accéléromètre 2 axes de TinkerKit 
+* Un des samples se lance à partir des données d'un accéléromètre 2 axes de TinkerKit 
   branché sur une Arduino. Le code est donné ci-dessous. 
 
-
+```c
 // ----------------------
 // Code Arduino
 //  Lecture de l'accéléromètre 2 axes de TinkerKit depuis Openframeworks
@@ -64,3 +64,4 @@ void loop() {
 }
 // FIN DU CODE ARDUINO
 // ----------------------
+```
